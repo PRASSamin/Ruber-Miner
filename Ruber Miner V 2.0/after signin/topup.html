@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Ruber Miner</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Заработок в интернете, ежедневный заработк" />
+	<meta name="keywords" content="инвестиции, вклады, вложения, деньги, высокий процент" />
+	<script type="text/javascript" src="load/css/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="load/css/table.css" />
+	<link rel="stylesheet" href="css/dep.css">
+	<link rel="stylesheet" type="text/css" href="load/css/style_cab5445.css" />
+	<link rel="shortcut icon" href="load/img/titleicon.ico" type="image/x-icon" />
+	<link href="load/icons/css/fontawesome.css" rel="stylesheet">
+	<link href="load/icons/css/brands.css" rel="stylesheet">
+	<link href="load/icons/css/solid.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<style>
+		@font-face {
+			font-family: 'Roboto';
+			src: local('load/font/Roboto-Regular.ttf'), url('load/font/Roboto-Regular.ttf') format('truetype');
+			font-weight: 400;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Firenight';
+			src: local('load/font/firenight/Firenight-Regular.ttf'), url('load/font/firenight/Firenight-Regular.ttf') format('truetype');
+			font-weight: 400;
+			font-style: normal;
+		}
+
+		.firenight {
+			font-family: 'Firenight';
+		}
+
+
+
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+			color: #333;
+			font-family: 'Roboto';
+			font-weight: 400;
+		}
+
+		body {
+			background-color: #292929
+;
+			/*background-image:url(load/img/bg2.png); background-attachment:fixed; background-repeat:repeat;*/
+		}
+
+		#wrapper {
+			border: 0px solid #000000;
+			margin: auto;
+			text-align: center;
+			width: 1000px;
+			min-height: 100vh;
+		}
+
+		#header {
+			border: 0px solid #000000;
+		}
+
+		#content {
+			border: 1px solid #c6c6c6;
+			background-color: #ffffff;
+			min-height: 100vh;
+			padding: 15px 20px;
+			border-radius: 15px;
+			box-shadow: inset 0 -5px 45px 0 rgb(0 0 0 / 18%), 0 4px 15px;
+		}
+
+		#content:hover {
+			opacity: 1;
+		}
+
+		#footer {
+			border: 1px solid #e0e0e0;
+			background-color: #545454;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			line-height: 50px;
+			height: 50px;
+			border-radius: 15px;
+			box-shadow: inset 0 -5px 45px 0 rgb(0 0 0 / 18%), 0 4px 15px;
+		}
+	</style>
+
+
+
+
+
+	<div id="wrapper">
+		<div id="header">
+			<!------------------------------------------------------------------------>
+			<a href="../home.html"><img src="load/img/logo.png" style="height:150px"></a>
+
+
+
+
+			<style>
+				#user_menu {
+					display: flex;
+					width: 100%;
+					margin: auto;
+					text-align: center;
+					margin-bottom: 15px;
+				}
+
+				#user_menu div {
+					width: 100%;
+					background-color: #34343487;
+					border-radius: 10px;
+					height: 100px;
+					margin-right: 5px;
+					margin-left: 5px;
+					padding-top: 10px;
+					border: 1px solid #e0e0e0;
+					box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%);
+					transition: 0.2s;
+				}
+
+				#user_menu a {
+					display: block
+				}
+
+				#user_menu span {
+					line-height: 29px;
+					letter-spacing: 1.2px;
+					color: #4C4C4C;
+					font-size: 16px;
+					text-transform: uppercase;
+					color: #ffffff;
+					display: block;
+					width: 100%;
+					margin: auto;
+					margin-top: 7px;
+					/* border-radius: 31px; */
+					font-weight: bold;
+				}
+
+				#user_menu div:hover {
+					background-color: #486168;
+					border-radius: 49px/100%;
+				}
+
+				.bounce-1 {
+					animation-duration: 3s;
+					animation-iteration-count: infinite;
+					animation-name: bounce-1;
+					animation-timing-function: linear;
+				}
+
+				@keyframes bounce-1 {
+					0% {
+						transform: translateY(0);
+					}
+
+					50% {
+						transform: translateY(-5px);
+					}
+
+					100% {
+						transform: translateY(0);
+					}
+				}
+
+				.bounce-2 {
+					animation-duration: 3s;
+					animation-iteration-count: infinite;
+					animation-name: bounce-2;
+					animation-timing-function: linear;
+				}
+
+				@keyframes bounce-2 {
+					0% {
+						transform: translateY(0);
+					}
+
+					50% {
+						transform: translateY(5px);
+					}
+
+					100% {
+						transform: translateY(0);
+					}
+				}
+			</style>
+
+			<div id="user_menu">
+				<div class="bounce-2" style="margin-left:0"><a href="dep.html"><i class="fa fa-duotone fa-tv fa-3x"
+							style="color:#ff898c"></i><br> <span>DEPOSITs</span></a></div>
+				<div class="bounce-1"><a href="topup.html"><i class="fa-solid fa-cart-shopping fa-3x"
+							style="color:#80baff"></i><br> <span>top up</span></a></div>
+				<div class="bounce-2"><a href="withdraw.html"><i class="fa fa-duotone fa-credit-card fa-3x"
+							style="color:#b6ffa1"></i><br> <span>withdraws</span></a></div>
+				<div class="bounce-1"><a href="ref.html"><i class="fa fa-regular fa-user-group fa-3x"
+							style="color:#ffd87e"></i><br> <span>REFERRALS</span></a></div>
+				<div class="bounce-2"><a href="setting.html"><i class="fa-solid fa-screwdriver-wrench fa-3x"
+							style="color:#adfbff"></i><br> <span>SETTINGS</span></a></div>
+				<div class="bounce-1" style="margin-right:0"><a href="../home.html"><i
+							class="fa-solid fa-door-open fa-3x" style="color:#EBADFF"></i><br> <span>exit</span></a>
+				</div>
+			</div>
+			<!------------------------------------------------------------------------>
+		</div>
+		<div id="content">
+			<!------------------------------------------------------------------------>
+
+
+
+
+
+
+
+			<div id="page_head">
+				<div style=" border-radius:0 0 0 50px ; box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%);"><span
+						style=" font-size:12px">WITHDRAWAL BALANCE</span> <b style=" font-size:36px"
+						class="notranslate">0.00<span style=" font-size:12px">RUB</span></b></div>
+			</div>
+			<div
+				style="background-color:#FCFCFC; border:1px solid #d8d8d8; padding:30px 0; border-radius:50px; box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%);">
+
+				<table width="100%" border="0">
+					<tr>
+						<td width="0%" valign="top">
+
+						</td>
+						<td width="100%" valign="top">
+
+							<!---------------------------->
+							<style>
+								.pay_type {
+									cursor: pointer;
+									width: 253px;
+									margin: 10px;
+									border: 1px solid #E0F8E1;
+									box-shadow: 0 2px 4px rgb(0 0 0 / 11%);
+									display: inline-table;
+									vertical-align: top;
+									background-color: #F6FFF6;
+								}
+
+								.pay_type img {
+									height: 40px;
+								}
+
+								.pay_type .text {
+									background-color: #E0F8E1;
+									font-weight: bold;
+									font-size: 16px;
+									border-top: 1px solid #e0e0e0;
+									color: #666666
+								}
+
+								.pay_type .radius {
+									position: relative;
+									top: 15px;
+									left: 15px;
+									height: 20px;
+									width: 20px;
+									border: 1px solid #69D473;
+									border-radius: 100%;
+									background-color: #FFFFFF;
+								}
+
+								.act .radius {
+									background-color: #69D473;
+								}
+							</style>
+
+							<form method="POST">
+
+								<table border="0" align="center"
+									style=" width:50%; background-color:#4F5D60; height:55px; box-shadow: 0 0 5px rgb(0 0 0 / 23%); border-radius:50px; margin-bottom:30px; color:#FFFFFF">
+									<tr>
+										<td width="100%" align="left" style=" text-align:center">
+
+											TOTAL:
+
+											<input type="text" name="sum" id="sum_val" placeholder="100"
+												onkeyup="cal($('#sum_val').val());" maxlength="6" value="100"
+												style="font-weight:bold; width:100px; font-size:24px; border-radius:50px; text-align:center; padding-right:25px;"
+												required />
+											</span>
+											<span class="notranslate">RUB</span>
+
+										</td>
+										<td width="0%" style=" padding-right:15px;">
+											<!--<div style="background-color:#69D473; color:#FFFFFF">ПОЛУЧАЕТЕ: <b style="font-size:24px" id="cal_bon">1050.00</b> <span class="rub">P</span></div>-->
+										</td>
+									</tr>
+								</table>
+
+								<br>
+								<br>
+
+
+								<div class="pay_type" onclick="pay(this, 'payeer'); return false;">
+									<div style="position:absolute">
+										<div class="radius"></div>
+									</div>
+									<img src="load/img/ps/logo/payeer.png" />
+									<div class="text notranslate">Minimum 1<span style=" font-size:12px"
+											class="notranslate"> RUB</span></div>
+								</div>
+
+								<!--<div class="pay_type" onclick="pay(this, 'qiwi'); return false;">
+									<div style="position:absolute">
+										<div class="radius"></div>
+									</div>
+									<img src="load/img/ps/logo/qiwi.png" />
+									<div class="text notranslate">
+										Replenishment Via <span style=" font-size:12px" class="notranslate">FreeKassa
+											-></span></div>
+								</div>
+
+								<div class="pay_type" onclick="pay(this, 'freekassa'); return false;">
+									<div style="position:absolute">
+										<div class="radius"></div>
+									</div>
+									<img src="load/img/ps/pay/free-kassa.png" />
+									<div class="text notranslate">Minimum 100<span style=" font-size:12px"
+											class="notranslate"> RUB</span></div>
+								</div>
+
+								<div class="pay_type" onclick="pay(this, 'visa'); return false;">
+									<div style="position:absolute">
+										<div class="radius"></div>
+									</div>
+									<img src="load/img/ps/logo/visa.png" />
+									<div class="text notranslate">Minimum 1000 <span style=" font-size:12px"
+											class="notranslate"> RUB</span></div>
+								</div>
+
+								<div class="pay_type" onclick="pay(this, 'yoomoney'); return false;">
+	<div style="position:absolute"><div class="radius"></div></div>
+	<img src="load/img/ps/logo/yoomoney.png" />
+	<div class="text">Мин. 15 <span class="rub">P</span></div>
+</div>
+
+
+								<div class="pay_type" onclick="pay(this, 'mastercard'); return false;">
+									<div style="position:absolute">
+										<div class="radius"></div>
+									</div>
+									<img src="load/img/ps/logo/mastercard.png" />
+									<div class="text notranslate">Minimum 1000 <span style=" font-size:12px"
+											class="notranslate"> RUB</span></div>
+								</div>
+
+								<div class="pay_type" onclick="pay(this, 'mir'); return false;">
+									<div style="position:absolute">
+										<div class="radius"></div>
+									</div>
+									<img src="load/img/ps/logo/mir.png" />
+									<div class="text notranslate">Minimum 1000 <span style=" font-size:12px"
+											class="notranslate"> RUB</span></div>
+								</div>-->
+
+								<!--<div class="pay_type" onclick="pay(this, 'perfect'); return false;">
+	<div style="position:absolute"><div class="radius"></div></div>
+	<img src="load/img/ps/logo/perfectmoney.png" />
+	<div class="text">К оплате: <span class="payin_kurs">0</span> $</div>
+</div>-->
+
+								<!--<div class="pay_type" onclick="pay(this, 'onlinebank'); return false;">
+	<div style="position:absolute"><div class="radius"></div></div>
+	<img src="load/img/ps/logo/onlinebank.png" />
+	<div class="text">Мин. 50 <span class="rub">P</span></div>
+</div>-->
+
+
+
+								<br />
+
+								<!---------------------------------------------------------------------------------------------->
+								<style>
+									.prof_day,
+									.p_proz,
+									.p_prof,
+									.p_in {
+										font-weight: bold;
+										font-size: 24px;
+										color: #ffad70;
+										text-shadow: 1px 1px 1px #000000;
+										letter-spacing: 1px
+									}
+
+									#wrap_calc {
+										border: 0px solid #ececec;
+										width: 85%;
+										margin: auto
+									}
+
+									#wrap_calc table {
+										margin: 15px 0;
+									}
+
+									#wrap_calc {
+										padding: 0 20px;
+										border-radius: 10px;
+									}
+
+									#wrap_calc2 {
+										text-transform: uppercase;
+										font-size: 18px;
+										letter-spacing: 3px;
+										text-shadow: 1px 1px 1px #000000;
+										color: #FFFFFF;
+										background-color: #4F5D60;
+										border-radius: 50px;
+										height: 40px;
+										line-height: 40px;
+										box-shadow: 0 0 5px rgb(0 0 0 / 78%);
+									}
+
+									#wrap_calc2 .firenight {}
+								</style>
+								<!--
+<div id="wrap_calc">
+	<div style=" text-transform:uppercase; border-radius:5px; color:#9f9c9c; font-weight:bold"></div>
+	
+	<div class="polzunok-container-2">
+		<div class="polzunok-2" style="width:100%; margin:auto; "></div>
+	</div>
+</div>
+
+
+
+<table width="85%" border="0" align="center" id="wrap_calc2">
+  <tr>
+    <td width="40%" align="center">
+		<div> <span class="firenight">Пополняете:</span> <span class="p_in">0</span> <span style=" font-size:12px">RUB</span> </div>
+	</td>
+	
+	<td width="20%" align="center">
+		<div> <span class="firenight">Бонус:</span> <span class="p_proz">1</span>%</div>
+	</td>
+
+    <td width="40%" align="center">
+		<div> <span class="firenight">Получаете:</span> <span class="p_prof">0</span> <span style=" font-size:12px">RUB</span> </div>
+	</td>
+  </tr>
+</table>
+
+
+<link rel="stylesheet" href="dep/calc/ui.css">
+
+<script src="dep/calc/jquery.js"></script>
+<script src="dep/calc/ui.js"></script>
+
+<script>
+function cislo(){
+    if (event.keyCode != 43 && event.keyCode < 48 || event.keyCode > 57)
+    event.preventDefault();
+}
+
+function cal(sum){
+	var sum = Number(sum);
+	if(sum > 0){
+		if(sum > 50000) sum = 50000;
+		
+		$(".polzunok-2").slider({ value: sum, });
+				
+		var pr = 0;
+		//pr = sum / 500 + pr;
+		pr = pr.toFixed(0);
+		if(pr > 50) pr = 50;
+		
+		if(sum >= 500) pr = 10;
+		if(sum >= 1000) pr = 20;
+		if(sum >= 5000) pr = 30;
+		if(sum >= 10000) pr = 40;
+		if(sum >= 15000) pr = 50;
+		if(sum >= 20000) pr = 60;
+		if(sum >= 25000) pr = 70;
+		if(sum >= 30000) pr = 80;
+		if(sum >= 40000) pr = 90;
+		if(sum >= 50000) pr = 100;
+
+		var p_prof = (sum / 100 * pr + sum);
+
+		$(".p_in").text(sum);
+		$(".p_proz").text(pr);
+		$(".p_prof").text(p_prof.toFixed(2));
+		$("#sum_val").val(sum);
+		
+	}
+}
+
+$(".polzunok-2").slider({
+    min: 1,
+	max: 50000,
+    value: 1,
+    range: "min",
+    animate: "fast",
+    slide : function(event, ui) {
+		cal(Number(ui.value));
+    }	
+});
+
+cal(100);
+</script>
+-->
+
+								<style>
+									.polzunok-container-2 * {
+										box-sizing: border-box;
+										outline: none;
+									}
+
+									.polzunok-container-2 {
+										padding: 10px 0px;
+									}
+
+									.polzunok-container-2 .ui-slider {
+										position: relative;
+										background: #e0f8e1;
+										height: 15px;
+									}
+
+									.polzunok-container-2 .ui-slider .ui-slider-handle {
+										background-image: url(dep/img/polz.png);
+										cursor: pointer;
+										width: 33px;
+										height: 30px;
+										top: -0.4em;
+										border-radius: 100%;
+									}
+
+									.polzunok-container-2 .ui-slider .ui-slider-handle b {
+										padding: 0 8px;
+										color: #BFE2FF;
+									}
+
+									.polzunok-container-2 .ui-slider .ui-slider-handle:hover b {
+										color: #337AB7;
+									}
+
+									.polzunok-container-2 .ui-slider .ui-slider-range {
+										position: absolute;
+										z-index: 1;
+										height: 17px;
+										display: block;
+										border: 0;
+										background: #F58938;
+										box-shadow: 1px 1px 6px #dacdca;
+									}
+
+									.polzunok-container-2 .ui-slider-horizontal .ui-slider-range-min {
+										left: 0;
+									}
+
+									.polzunok-container-2 .ui-slider-horizontal .ui-slider-range-max {
+										right: 0;
+									}
+								</style>
+								<!---------------------------------------------------------------------------------------------->
+
+								<br/>
+								<br>
+								<br>
+
+
+								<input type="hidden" name="metod" id="metod" value="">
+								<input type="hidden" name="key" value="83dac2ca2d4bf161becc010bfc8aa382" />
+								<input class="sub" id="sub3" type="submit" value="Process" name="sub_payin"
+									style="width:300px; margin:auto">
+								<div id="knp" class="content_toggle" style="width:300px; display:none; margin:auto"><a
+										href="#"> Process </a></div>
+							</form>
+
+
+							<script>
+								function pay(a, b) {
+									var type = b;
+									$('.pay_type').removeClass('act');
+									$(a).addClass('act');
+									$('#metod').val(b);
+
+									$(".sub").css({ display: 'block' }); $(".content_toggle").css({ display: 'none' })
+									if (b == 'payeer') {
+										$(".content_toggle").css({ display: 'block' }); $(".sub").css({ display: 'none' })
+									}
+								}
+							</script>
+
+							<script>
+								function input_sum() {
+									var sum = $("#sum_val").val();
+									sum = sum * 1;
+
+									var usd = (sum / 55).toFixed(2);
+									$(".payin_kurs").text(usd);
+								}
+								window.onload = function () { input_sum(); }
+							</script>
+
+
+						</td>
+					</tr>
+				</table>
+
+
+
+
+				<!--transfer------------------------------------------------------>
+				<style>
+					.content_block .href {
+						color: #CCCCCC;
+						border-bottom: 1px dashed #DADADA
+					}
+
+					.content_block .href:hover {
+						color: #333333
+					}
+
+					.content_block p {
+						border-bottom: 1px dashed #DADADA;
+						width: 76%
+					}
+
+					.content_block img {
+						border: 1px solid #e7e8e9
+					}
+
+					.content_block strong {
+						font-size: 22px;
+						color: #4C4C4C;
+					}
+				</style>
+
+				<div class="content_block"
+					style="display:none; border:1px solid #E1EDF4; background-color:#F7FAFC; text-align:left; padding:30px; margin-top:30px;">
+
+					<a class="href" href="https://payeer.com/en/account/send/" target="_blank" style="color:#3BB53F">In
+						the <b>PAYEER</b> payment system, select the <b>Transfer</b> section.</a>
+
+					<p> <strong>1)</strong> Send the required amount to the wallet <b
+							style="border: 0px solid #CCCCCC;color: #ff062b;">P1078323851</b>(Minimum 1 <span
+							class="notranslate">RUB</span>)</p>
+					<p> <strong>2)</strong> Copy your payment ID from the Payeer <a
+							href="https://payeer.com/ru/account/history/" target="_blank"
+							style="color:#3BB53F"><b>History</b></a> Section.</p>
+
+					<p> <strong>3)</strong> Enter the payment ID below and click "Check Payment".</p>
+					<form method="POST">
+						<input name="id" type="text" placeholder="Payment ID" autocomplete="new-password" required />
+						<input type="hidden" name="key" value="83dac2ca2d4bf161becc010bfc8aa382" />
+						<input type="hidden" name="metod" value="transfer">
+						<input type="hidden" name="sum" value="100">
+						<input id="sub3" type="submit" value="Check Payment" name="sub_payin" style="line-height:0">
+					</form>
+
+					<br />
+
+					<span style="font-size:14px">
+						<!--<div><b>If the transfer to the recipient's country is prohibited, please wait a few hours and try again.</b></div>-->
+						<div><b>Funds are credited immediately after payment!</b></div>
+						<!--<div><b>Our Support: prassamin@gmail.com</b></div>-->
+					</span>
+
+					<hr />
+
+					<div id="knp2" class="toggle" style="width:300px; margin:auto"><a href="#">Detailed Instructions</a>
+					</div>
+					<div class="toggle_block"
+						style="display:none; background-color:#FFFFFF; padding:15px; margin-top:20px; border:1px solid #E1EDF4">
+						<br />
+						<hr />
+						<b>FAQ: How to replenish the balance </b><br />
+						1. Go to your PAYEER personal account and transfer the required amount to your wallet: <b>
+							<font color="#ff0037"> P1070835945</font>
+						</b><br><br>
+						<img src="load/img/inst1.jpg" style=" height:400px">
+						<br /> <br />
+						2. Press the history button in your PAYEER personal account<br />
+						<img src="load/img/inst2.jpg" style="height:300px">
+						<br /> <br />
+						3. Copy the transfer ID<br />
+						<img src="load/img/inst3.jpg" style="height:150px">
+						<br /> <br />
+						4. Paste the transfer ID into the field and click the "Check payment" button<br />
+						<img src="load/img/inst4.jpg" style="height:300px">
+					</div>
+
+
+				</div>
+
+				<script>
+					$(document).ready(function () {
+						$('.content_toggle').click(function () {
+							$('.content_block').slideToggle(100);
+							return false;
+						});
+					});
+				</script>
+
+				<script>
+					$(document).ready(function () {
+						$('.toggle').click(function () {
+							$('.toggle_block').slideToggle(100);
+							return false;
+						});
+					});
+				</script>
+
+				<style>
+					#tab_menu {
+						text-align: left;
+					}
+				</style>
+
+				<!---------------------------->
+
+
+			</div>
+
+
+			<!------------------------------------------------------------>
+			<br /><br />
+			<table width="100%" border="0" id="tab">
+				<tr>
+					<td colspan="3" id="tab_head">Deposit History</td>
+				</tr>
+				<tr id="tab_menu">
+					<td width="37%">Time</td>
+					<td width="35%">Description</td>
+					<td width="28%">Amount</td>
+				</tr>
+				<tr>
+					<td colspan='3' align='center'></td>
+				</tr>
+			</table>
+
+			<br />
+
+
+			<!--<center><div id="linkslot_344337"><script src="https://linkslot.ru/bancode.php?id=344337" async></script></div>
+
+<iframe data-aa='2056483' src='//ad.a-ads.com/2056483?size=468x60' style='width:468px; height:60px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+</center>-->
+			<!------------------------------------------------------------------------>
+		</div>
+		<div id="footer">
+			<!------------------------------------------------------------------------>
+
+
+			<style>
+				#menu {
+					width: 100%;
+					margin: auto;
+					text-align: center;
+					background-color: #2C343C;
+					color: #FFFFFF;
+				}
+
+				.menu div {
+					display: inline-block;
+					background-color: #CC5050;
+					width: 200px;
+					height: 35px;
+					line-height: 35px;
+					border-radius: 10px;
+					text-align: center;
+				}
+
+				.menu div:hover {
+					background-color: #FFFFFF
+				}
+
+				.menu a {
+					color: #FFFFFF;
+					display: block;
+					text-transform: uppercase;
+					font-weight: bold;
+				}
+
+				.menu a:hover {
+					color: #333333
+				}
+			</style>
+
+			<div class="menu">
+				<div><a href="../rules.html">Rules</a></div>
+				<div><a href="../support.html">Support</a></div>
+				<div><a href="../aboutus.html">About us</a></div>
+			</div>
+
+
+			<!------------------------------------------------------------------------>
+		</div>
+	</div>
+
+
+	<span id="info"></span>
+
+	<script>
+		function info(text) {
+			var $item = $("<div id='modal'><div class='message'><div id='info_close' onclick='info_close()'><i class='fas fa-times'></i></div><div class='inf_txt'>" + text + "</div></div></div>");
+			$item.appendTo($('#info')).delay(1000000).slideUp(500, function () {
+				$item.remove();
+			});
+		}
+		function info_close() { $('#info').text(''); }
+	</script>
+
+
+</body>
+
+</html>

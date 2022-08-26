@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Ruber Miner</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Заработок в интернете, ежедневный заработк" />
+    <meta name="keywords" content="инвестиции, вклады, вложения, деньги, высокий процент" />
+    <script type="text/javascript" src="load/css/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="load/css/table.css" />
+    <link rel="stylesheet" type="text/css" href="load/css/style_cab5445.css" />
+    <link rel="stylesheet" href="css/dep.css">
+    <link rel="shortcut icon" href="load/img/titleicon.ico" type="image/x-icon" />
+    <link href="load/icons/css/fontawesome.css" rel="stylesheet">
+    <link href="load/icons/css/brands.css" rel="stylesheet">
+    <link href="load/icons/css/solid.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            src: local('load/font/Roboto-Regular.ttf'), url('load/font/Roboto-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Firenight';
+            src: local('load/font/firenight/Firenight-Regular.ttf'), url('load/font/firenight/Firenight-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .firenight {
+            font-family: 'Firenight';
+        }
+
+
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color: #333;
+            font-family: 'Roboto';
+            font-weight: 400;
+        }
+
+        body {
+            background-color: #292929;
+            /*background-image:url(load/img/bg2.png); background-attachment:fixed; background-repeat:repeat;*/
+        }
+
+
+        #wrapper {
+            border: 0px solid #000000;
+            margin: auto;
+            text-align: center;
+            width: 1000px;
+            min-height: 100vh;
+        }
+
+        #header {
+            border: 0px solid #000000;
+        }
+
+        #content {
+            border: 1px solid #c6c6c6;
+            background-color: #ffffff;
+            min-height: 100vh;
+            padding: 15px 20px;
+            border-radius: 15px;
+            box-shadow: inset 0 -5px 45px 0 rgb(0 0 0 / 18%), 0 4px 15px;
+        }
+
+        #content:hover {
+            opacity: 1;
+        }
+
+        #footer {
+            border: 1px solid #e0e0e0;
+            background-color: #545454;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            line-height: 50px;
+            height: 50px;
+            border-radius: 15px;
+            box-shadow: inset 0 -5px 45px 0 rgb(0 0 0 / 18%), 0 4px 15px;
+        }
+    </style>
+
+
+
+
+
+    <div id="wrapper">
+        <div id="header">
+            <!------------------------------------------------------------------------>
+            <a href="../home.html"><img src="load/img/logo.png" style="height:150px"></a>
+
+
+
+
+            <style>
+                #user_menu {
+                    display: flex;
+                    width: 100%;
+                    margin: auto;
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+
+                #user_menu div {
+                    width: 100%;
+                    background-color: #34343487;
+                    border-radius: 10px;
+                    height: 100px;
+                    margin-right: 5px;
+                    margin-left: 5px;
+                    padding-top: 10px;
+                    border: 1px solid #e0e0e0;
+                    box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%);
+                    transition: 0.2s;
+                }
+
+                #user_menu a {
+                    display: block
+                }
+
+                #user_menu span {
+                    line-height: 29px;
+                    letter-spacing: 1.2px;
+                    color: #4C4C4C;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    display: block;
+                    width: 100%;
+                    margin: auto;
+                    margin-top: 7px;
+                    /* border-radius: 31px; */
+                    font-weight: bold;
+                }
+
+                #user_menu div:hover {
+                    background-color: #486168;
+                    border-radius: 49px/100%;
+                }
+
+                .bounce-1 {
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                    animation-name: bounce-1;
+                    animation-timing-function: linear;
+                }
+
+                @keyframes bounce-1 {
+                    0% {
+                        transform: translateY(0);
+                    }
+
+                    50% {
+                        transform: translateY(-5px);
+                    }
+
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+
+                .bounce-2 {
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                    animation-name: bounce-2;
+                    animation-timing-function: linear;
+                }
+
+                @keyframes bounce-2 {
+                    0% {
+                        transform: translateY(0);
+                    }
+
+                    50% {
+                        transform: translateY(5px);
+                    }
+
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+
+                #input_ico i {
+                    position: absolute;
+                    border-right: 1px solid #DADADA;
+                    height: 42px;
+                    /* margin: 1px; */
+                    line-height: 40px;
+                    width: 40px;
+                    text-align: center;
+                    background-color: #676767;
+                    border-radius: 3px 0 0 3px;
+                    border-radius: 5px 50px 50px 5px;
+                    color: #ffffff;
+                }
+
+                #input_ico input {
+                    padding: 5px 3px 5px 50px;
+                }
+
+                #url input[type=text] {
+                    min-width: 540px;
+                    font-size: 16px;
+                }
+            </style>
+
+            <div id="user_menu">
+                <div class="bounce-2" style="margin-left:0"><a href="dep.html"><i class="fa fa-duotone fa-tv fa-3x"
+                            style="color:#ff898c"></i><br> <span>DEPOSITs</span></a></div>
+                <div class="bounce-1"><a href="topup.html"><i class="fa-solid fa-cart-shopping fa-3x"
+                            style="color:#80baff"></i><br> <span>Top up</span></a></div>
+                <div class="bounce-2"><a href="withdraw.html"><i class="fa fa-duotone fa-credit-card fa-3x"
+                            style="color:#b6ffa1"></i><br> <span>withdraw</span></a></div>
+                <div class="bounce-1"><a href="ref.html"><i class="fa fa-regular fa-user-group fa-3x"
+                            style="color:#ffd87e"></i><br> <span>REFERRALS</span></a></div>
+                <div class="bounce-2"><a href="setting.html"><i class="fa-solid fa-screwdriver-wrench fa-3x"
+                            style="color:#adfbff"></i><br> <span>SETTINGS</span></a></div>
+                <div class="bounce-1" style="margin-right:0"><a href="../home.html"><i
+                            class="fa-solid fa-door-open fa-3x" style="color:#EBADFF"></i><br> <span>exit</span></a>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------>
+        </div>
+        <div id="content">
+            <!------------------------------------------------------------------------>
+
+
+
+
+
+
+
+            <div id="page_head">
+                <div style=" border-radius:0 0 0 50px ; box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%);"><span
+                        style=" font-size:12px">WITHDRAWAL BALANCE</span> <b style=" font-size:36px"
+                        class="notranslate">1.02<span style=" font-size:12px">RUB</span></b></div>
+            </div>
+            <style>
+                #page_info span {
+                    background-color: #ffe069;
+                    padding: 5px 10px;
+                    margin: 0px 20px;
+                    text-align: center;
+                    font-weight: bold
+                }
+            </style>
+
+            <!------------------------------------------------------------------------------------>
+
+
+            <style>
+                #url input[type=text] {
+                    min-width: 540px;
+                    font-size: 16px
+                }
+
+                #url .text {
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    color: #666666;
+                }
+            </style>
+
+            <div id="url">
+                <div class="text"></div>
+                <div class="inp">
+                    <span id="input_ico"><i class="fa fa-link"></i><input type="text" onclick="this.select()"
+                            value="https://jolingo.fun/?ref=814"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div id="page_info" style="text-align:center">
+                Profitable affiliate program: 30% of referral payouts. (bonuses are credited!)
+            </div>
+
+
+            <!--<div style="background-color:#0072FF;  margin:auto; height:40px; line-height:40px; margin-top:20px; width:90%; border-radius:50px; box-shadow: 0px 1px 2px #000000b3; cursor:pointer"><a href="?pages=material" style=" font-weight:bold; color:#FFFFFF; display:block">БАННЕРЫ</a></div>-->
+
+
+
+            <style>
+                #ref_stat {
+                    width: 100%;
+                    margin: auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+
+                #ref_stat div {
+                    font-size: 24px;
+                    border: 1px solid #E1EDF4;
+                    background-color: #80BAFF;
+                    width: 310px;
+                    padding: 5px 0;
+                    margin-bottom: 25px
+                }
+
+                #ref_stat span {
+                    text-transform: uppercase;
+                    font-size: 14px
+                }
+            </style>
+
+
+            <div id="ref_stat">
+                <div><span>REFERRALS:</span> 0 <span>HOURS</span></div>
+                <div><span>CONTRIBUTORS:</span> 0 <span>HOURS</span></div>
+                <div><span>EARNINGS:</span> 0.00 <span style=" font-size:12px">RUB</span></div>
+
+            </div>
+
+            <!--Таблица-->
+            <table width="100%" border="0" id="tab">
+                <tr id="tab_menu" align="left">
+                    <td width="15%">Time</td>
+                    <td width="21%">Login</td>
+                    <td width="22%">Source</td>
+                    <td width="10%">Deposit</td>
+                    <td width="10%">Conclusion</td>
+                    <td width="10%">Income</td>
+                </tr>
+                <tr>
+                    <td colspan='6' align='center'>No referrals!</td>
+                </tr>
+            </table>
+
+            <br />
+
+            <!--<center><div id="linkslot_344337"><script src="https://linkslot.ru/bancode.php?id=344337" async></script></div>
+
+<iframe data-aa='2056483' src='//ad.a-ads.com/2056483?size=468x60' style='width:468px; height:60px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+</center>-->
+            <!------------------------------------------------------------------------>
+        </div>
+        <div id="footer">
+            <!------------------------------------------------------------------------>
+
+
+            <style>
+                #menu {
+                    width: 100%;
+                    margin: auto;
+                    text-align: center;
+                    background-color: #2C343C;
+                    color: #FFFFFF;
+                }
+
+                .menu div {
+                    display: inline-block;
+                    background-color: #CC5050;
+                    width: 200px;
+                    height: 35px;
+                    line-height: 35px;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+
+                .menu div:hover {
+                    background-color: #FFFFFF
+                }
+
+                .menu a {
+                    color: #FFFFFF;
+                    display: block;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+
+                .menu a:hover {
+                    color: #333333
+                }
+            </style>
+
+            <div class="menu">
+                <div><a href="../rules.html">Rules</a></div>
+                <div><a href="../support.html">Support</a></div>
+                <div><a href="../aboutus.html">About Us</a></div>
+            </div>
+
+
+            <!------------------------------------------------------------------------>
+        </div>
+    </div>
+
+
+    <span id="info"></span>
+
+    <script>
+        function info(text) {
+            var $item = $("<div id='modal'><div class='message'><div id='info_close' onclick='info_close()'><i class='fas fa-times'></i></div><div class='inf_txt'>" + text + "</div></div></div>");
+            $item.appendTo($('#info')).delay(1000000).slideUp(500, function () {
+                $item.remove();
+            });
+        }
+        function info_close() { $('#info').text(''); }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1750 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Ruber Miner</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Заработок в интернете, ежедневный заработк" />
+    <meta name="keywords" content="инвестиции, вклады, вложения, деньги, высокий процент" />
+    <script type="text/javascript" src="load/css/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="load/css/table.css" />
+    <link rel="stylesheet" type="text/css" href="load/css/style_cab5445.css" />
+    <link rel="shortcut icon" href="load/img/titleicon.ico" type="image/x-icon" />
+    <link href="load/icons/css/fontawesome.css" rel="stylesheet">
+    <link href="load/icons/css/brands.css" rel="stylesheet">
+    <link href="load/icons/css/solid.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            src: local('load/font/Roboto-Regular.ttf'), url('load/font/Roboto-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Firenight';
+            src: local('load/font/firenight/Firenight-Regular.ttf'), url('load/font/firenight/Firenight-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .firenight {
+            font-family: 'Firenight';
+        }
+
+
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color: #333;
+            font-family: 'Roboto';
+            font-weight: 400;
+        }
+
+        body {
+            background-color: #292929;
+            /*background-image:url(load/img/bg2.png); background-attachment:fixed; background-repeat:repeat;*/
+        }
+
+
+        #wrapper {
+            border: 0px solid #000000;
+            margin: auto;
+            text-align: center;
+            width: 1000px;
+            min-height: 100vh;
+        }
+
+        #header {
+            border: 0px solid #000000;
+        }
+
+        #content {
+            border: 1px solid #c6c6c6;
+            background-color: #ffffff;
+            min-height: 100vh;
+            padding: 15px 20px;
+            border-radius: 15px;
+            box-shadow: inset 0 -5px 45px 0 rgb(0 0 0 / 18%), 0 4px 15px;
+        }
+
+        #content:hover {
+            opacity: 1;
+        }
+
+        #footer {
+            border: 1px solid #e0e0e0;
+            background-color: #545454;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            line-height: 50px;
+            height: 50px;
+            border-radius: 15px;
+            box-shadow: inset 0 -5px 45px 0 rgb(0 0 0 / 18%), 0 4px 15px;
+        }
+    </style>
+
+
+
+
+
+    <div id="wrapper">
+        <div id="header">
+            <!------------------------------------------------------------------------>
+            <a href="../home.html"><img src="load/img/logo.png" style="height:150px"></a>
+
+
+
+
+            <style>
+                #user_menu {
+                    display: flex;
+                    width: 100%;
+                    margin: auto;
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+
+                #user_menu div {
+                    width: 100%;
+                    background-color: #34343487;
+                    border-radius: 10px;
+                    height: 100px;
+                    margin-right: 5px;
+                    margin-left: 5px;
+                    padding-top: 10px;
+                    border: 1px solid #e0e0e0;
+                    box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%);
+                    transition: 0.2s;
+                }
+
+                #user_menu a {
+                    display: block
+                }
+
+                #user_menu span {
+                    line-height: 29px;
+                    letter-spacing: 1.2px;
+                    color: #4C4C4C;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    display: block;
+                    width: 100%;
+                    margin: auto;
+                    margin-top: 7px;
+                    /* border-radius: 31px; */
+                    font-weight: bold;
+                }
+
+                #user_menu div:hover {
+                    background-color: #486168;
+                    border-radius: 49px/100%;
+                }
+
+                .bounce-1 {
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                    animation-name: bounce-1;
+                    animation-timing-function: linear;
+                }
+
+                @keyframes bounce-1 {
+                    0% {
+                        transform: translateY(0);
+                    }
+
+                    50% {
+                        transform: translateY(-5px);
+                    }
+
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+
+                .bounce-2 {
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                    animation-name: bounce-2;
+                    animation-timing-function: linear;
+                }
+
+                @keyframes bounce-2 {
+                    0% {
+                        transform: translateY(0);
+                    }
+
+                    50% {
+                        transform: translateY(5px);
+                    }
+
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+            </style>
+
+            <div id="user_menu">
+                <div class="bounce-2" style="margin-left:0"><a href="dep.html"><i class="fa fa-duotone fa-tv fa-3x"
+                            style="color:#ff898c"></i><br> <span>DEPOSITs</span></a></div>
+                <div class="bounce-1"><a href="topup.html"><i class="fa-solid fa-cart-shopping fa-3x"
+                            style="color:#80baff"></i><br> <span>top up</span></a></div>
+                <div class="bounce-2"><a href="withdraw.html"><i class="fa fa-duotone fa-credit-card fa-3x"
+                            style="color:#b6ffa1"></i><br> <span>withdraws</span></a></div>
+                <div class="bounce-1"><a href="ref.html"><i class="fa fa-regular fa-user-group fa-3x"
+                            style="color:#ffd87e"></i><br> <span>REFERRALS</span></a></div>
+                <div class="bounce-2"><a href="setting.html"><i class="fa-solid fa-screwdriver-wrench fa-3x"
+                            style="color:#adfbff"></i><br> <span>SETTINGS</span></a></div>
+                <div class="bounce-1" style="margin-right:0"><a href="../home.html"><i
+                            class="fa-solid fa-door-open fa-3x" style="color:#EBADFF"></i><br> <span>exit</span></a>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------>
+        </div>
+        <div id="content">
+            <!------------------------------------------------------------------------>
+
+
+
+
+
+
+
+            <div id="page_head">
+                <div style=" border-radius:0 0 0 50px ; box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%);"><span
+                        style=" font-size:12px">WITHDRAWAL BALANCE</span> <b style=" font-size:36px"
+                        class="notranslate">0.00<span style=" font-size:12px">RUB</span></b></div>
+            </div>
+
+
+
+
+            <style>
+                #calc {
+                    color: #FFFFFF;
+                    width: 95%;
+                    text-align: left
+                }
+
+                #calc div {
+                    margin-bottom: 5px;
+                    background-color: #33415C;
+                    padding-left: 15px;
+                    padding-right: 10px;
+                    height: 48px;
+                    line-height: 48px;
+                    border: 1px solid #8e8e8e;
+                    border-radius: 20px/100%;
+                    box-shadow: 0px 1px 3px #261e1c;
+                    cursor: default;
+                    font-weight: bold;
+                    text-shadow: 1px 1px 1px #000000;
+                }
+
+                #calc b {
+                    font-size: 16px;
+                    float: right;
+                    padding-right: 10px;
+                    text-shadow: 0px 1px 0 #333333;
+                }
+
+                .zoom {
+                    -moz-transition: all 0.1s ease-out;
+                    -o-transition: all 0.1s ease-out;
+                    -webkit-transition: all 0.1s ease-out;
+                    transition: all 0.1s ease-out;
+                }
+
+                .zoom:hover {
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                    transform: scale(1.1);
+                }
+
+                #depST .text {
+                    font-size: 22px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    text-shadow: 1px 1px 1px #000000;
+                    color: #ffb140;
+                    letter-spacing: 2px;
+                }
+
+                #depST .val {
+                    font-size: 28px;
+                    font-weight: bold;
+                    color: #444444;
+                    /* text-shadow: 1px 1px 1px #ffffff; */
+                }
+
+                #depST i {
+                    font-size: 18px
+                }
+
+                #depST img {
+                    margin-top: 20px;
+                }
+            </style>
+
+            <table width="100%" height="271" border="0" id="depST">
+                <tr height="50">
+                    <td rowspan="3" valign="top" align="center">
+                        <div id="calc" style="font-size:16px; text-transform: capitalize;">
+                            <div>Rate: <b>50%</b></div>
+                            <div>Opening: <b>26.08.22</b></div>
+                            <div>Deposit term: <b>indefinitely</b></div>
+                            <div>Daily: <b>5.00 <span style=" font-size:12px" class="notranslate"> RUB</span></b>
+                            </div>
+                            <div style="margin-bottom:0">Income For 30 Days: <b>150 <span style=" font-size:12px"
+                                        class="notranslate"> RUB</span></b></div>
+                        </div>
+                    </td>
+                    <td valign="top">
+                        <div class="text firenight">AMOUNT OF DEPOSITS</div>
+                    </td>
+                    <td valign="top">
+                        <div class="text firenight">ACCRUED</div>
+                    </td>
+
+
+
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="val notranslate">10.00</span> <span style=" font-size:12px"> RUB</span></div>
+                    </td>
+                    <td>
+                        <div class="val notranslate"><span id="time_balans">0.04</span></span> <span
+                                style=" font-size:12px"> RUB</span></div>
+                    </td>
+                </tr>
+                <tr align="center" style="text-transform: uppercase;">
+                    <td valign="bottom">
+                        <div id="knp3"
+                            style=" width:200px; border-radius:50px; box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%); border:1px solid #244c9a">
+                            <a href="topup.html">DEPOSIT MORE</a>
+                        </div>
+                    </td>
+                    <td valign="bottom">
+                        <div id="knp2"
+                            style=" width:200px; border-radius:50px; box-shadow: 5px 5px 5px -5px rgb(34 60 80 / 60%); border:1px solid #388e1e">
+                            <a href="dep.html&dep_sbor=0.11&key=d1419302db9c022ab1d48681b13d5f8b">Withdraw</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+            <br />
+
+
+
+
+            <script src="dep/js/countUp.js"></script>
+            <script type="text/javascript">
+                var options = { useEasing: false, useGrouping: false, separator: '', decimal: '.' };
+                var count = new countUp("time_balans", 0.039352, 5.039352, 6, 86400, options);
+                count.start();
+            </script>
+
+
+
+
+            <br />
+
+            <!---------------------------------------------------------------------------------------------->
+            <style>
+                .prof_day,
+                .proz,
+                .prof_month {
+                    font-weight: bold;
+                    font-size: 24px
+                }
+
+                #wrap_calc {
+                    border: 1px solid #a1a1a1;
+                    width: 95%;
+                    margin: auto;
+                }
+
+                #wrap_calc table {
+                    margin: 15px 0
+                }
+
+                #wrap_calc {
+                    background-color: #FBFBFB;
+                    padding: 0 20px;
+                    border-radius: 10px/100%;
+                }
+
+                #ssst .tex {
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #909090
+                }
+            </style>
+
+
+            <style>
+                #hr {
+                    background-color: #575757;
+                    border-bottom: 1px solid #bbbbbb;
+                    border-top: 1px solid #bbbbbb;
+                    margin-bottom: 20px;
+                    box-shadow: 0 0 5px rgb(0 0 0 / 13%);
+                    border-radius: 10px;
+                    padding: 3px 3px;
+                    width: 938px;
+                }
+
+                #sendSum {
+                    background-color: #f7f7f7;
+                    text-align: center;
+                    color: #394551;
+                    padding: 5px 20px 5px 22px;
+                    height: 30px;
+                    width: 241px;
+                    line-height: 30px;
+                    transition: 0.5s;
+                    border-radius: 3px;
+                    border: 1px solid #c8c8c8;
+                    box-shadow: 0 0 3px rgb(0 0 0);
+                }
+                
+            </style>
+
+            <div id="hr" style="background-color:#ADEFFD; margin:auto; border-bottom:0"></div>
+
+            <div id="wrap_calc">
+
+                <table width="100%" border="0">
+                    <tr>
+                        <td align="left">
+                            <span class="text" style="color:#424242">DEPOSIT: </span>
+                            <input type="text" value="0" onkeyup="cal($('#sendSum').val());" onKeyPress="cislo()"
+                                maxlength="6" id="sendSum"
+                                style="text-align: center; width:100px; height:20px; font-weight:bold; font-size:24px; border-radius:50px; background-color:#ADEEFC">
+                            <span style=" font-size:12px" class="notranslate">RUB</span>
+                        </td>
+                        <td align="right">
+                            <span style="color:#ffaf0e">CALCULATOR
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="polzunok-container-2">
+                    <div class="polzunok-2" style="width:100%; margin:auto; "></div>
+                </div>
+
+
+                <table width="100%" border="0" id="ssst">
+                    <tr>
+                        <td width="23%" align="center">
+                            <div> <span class="tex">DAILY: </span> <span class="prof_day notranslate">0</span> <span
+                                    style=" font-size:12px" class="notranslate">RUB</span> </div>
+                        </td>
+                        <td width="27%" align="center">
+                            <div> <span class="tex">RATE:</span> <span class="proz notranslate">0</span> <span
+                                    class="tex">% DAY</span></div>
+                        </td>
+                        <td width="27%" align="center">
+                            <div> <span class="tex">FOR 30 DAYS:</span> <span class="prof_month notranslate">0</span>
+                                <span style=" font-size:12px" class="notranslate">RUB</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div id="hr" style="background-color:#ADEFFD; margin:auto; border-top:0"></div>
+
+
+            <link rel="stylesheet" href="dep/calc/ui.css">
+            <script src="dep/calc/jquery.js"></script>
+            <script src="dep/calc/ui.js"></script>
+
+            <script>
+                function cislo() {
+                    if (event.keyCode != 43 && event.keyCode < 48 || event.keyCode > 57)
+                        event.preventDefault();
+                }
+
+                function cal(sum) {
+                    var sum = Number(sum);
+                    if (sum > 0) {
+                        if (sum > 50000) sum = 50000;
+
+                        $(".polzunok-2").slider({ value: sum, });
+
+                        var pr = 50;
+                        pr = sum / 2780000 + pr;
+                        pr = pr.toFixed(0);
+                        //if(pr > 50) pr = 50;
+
+                        $(".proz").text(pr);
+                        var prof_day = (sum / 100 * pr);
+                        var prof_month = prof_day * 30;
+
+                        $(".prof_day").text(prof_day.toFixed(2));
+                        $(".prof_month").text(prof_month.toFixed(2));
+                        $("#sendSum").val(sum);
+                    }
+                }
+
+                $(".polzunok-2").slider({
+                    min: 1,
+                    max: 50000,
+                    value: 100,
+                    range: "min",
+                    animate: "fast",
+                    slide: function (event, ui) {
+                        cal(Number(ui.value));
+                    }
+                });
+
+                cal(10.00);
+            </script>
+
+            <style>
+                .polzunok-container-2 * {
+                    box-sizing: border-box;
+                    outline: none;
+                }
+
+                .polzunok-container-2 {
+                    padding: 10px 0px;
+                }
+
+                .polzunok-container-2 .ui-slider {
+                    position: relative;
+                    background: #F5F5F5;
+                    height: 20px;
+                    box-shadow: inset 0 0 5px rgb(0 0 0 / 7%);
+                }
+
+                .polzunok-container-2 .ui-slider .ui-slider-handle {
+                    background-image: url(dep/img/polz2.png);
+                    cursor: pointer;
+                    width: 37px;
+                    height: 37px;
+                    top: -0.45em;
+                    border-radius: 100%;
+                }
+
+                .polzunok-container-2 .ui-slider .ui-slider-handle b {
+                    padding: 0 8px;
+                    color: #BFE2FF;
+                }
+
+                .polzunok-container-2 .ui-slider .ui-slider-handle:hover b {
+                    color: #337AB7;
+                }
+
+                .polzunok-container-2 .ui-slider .ui-slider-range {
+                    position: absolute;
+                    z-index: 1;
+                    height: 20px;
+                    display: block;
+                    border: 0;
+                    background: #ADEFFD;
+                    box-shadow: inset 0 0 5px rgb(0 0 0 / 31%);
+                    /* border-bottom: 1px solid #adeffd; */
+                    border-top: 1px solid #adeffd;
+                }
+
+                .polzunok-container-2 .ui-slider-horizontal .ui-slider-range-min {
+                    left: 0;
+                }
+
+                .polzunok-container-2 .ui-slider-horizontal .ui-slider-range-max {
+                    right: 0;
+                }
+            </style>
+            <!------------------------------------------------------------------------>
+
+            <br />
+            <br />
+
+
+
+
+
+
+            <table width="100%" border="0" align="center" style=" margin-bottom:20px; margin-top:15px;">
+                <tr>
+                    <td width="50%" valign="top" align="left">
+                        <!---------------------------------------------------------------------------------------------------->
+                        <style>
+                            #my_tab {
+                                font-size: 14px
+                            }
+
+                            #my_tab td {
+                                border-bottom: 1px solid #343434;
+                                padding-left: 5px;
+                            }
+
+                            #my_tab tr {
+                                border-bottom: 1px solid #343434;
+                                height: 40px;
+                            }
+
+                            #my_tab tr:nth-child(odd) {
+                                background-color: #F9F7F7
+                            }
+
+                            #my_tab tr:nth-child(even) {
+                                background-color: #DAF5D3
+                            }
+
+                            #css_stat {
+                                background-color: #5DD9D7;
+                                width: 440px;
+                                margin: auto;
+                                text-align: center;
+                                height: 30px;
+                                line-height: 30px;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                                letter-spacing: 2px;
+                                margin-bottom: 15px;
+                                border-radius: 3px;
+                                padding: 3px 10px;
+                                box-shadow: 0px 0px 5px #5b5b5b;
+                                color: #505050
+                            }
+
+                            #tabZag {
+                                margin: auto;
+                                font-size: 18px;
+                                font-weight: bold;
+                                margin-bottom: 15px;
+                                text-align: center;
+                                border: 1px solid #636363;
+                                width: 70%;
+                                text-transform: uppercase;
+                                background-color: #56737B;
+                                color: #FFFFFF;
+                                height: 40px;
+                                line-height: 40px;
+                                box-shadow: 0 0 20px rgb(255 255 255 / 57%);
+                                border-radius: 20px/100%;
+                            }
+                        </style>
+                        <div id="tabZag">USER DEPOSITS</div>
+                        <table width="99%" border="0" id="my_tab" class="notranslate">
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:22 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> malena12
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">20.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:18 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> yasin2
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">5 800.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:18 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> hosannazeem
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">10.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:07 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> roki59
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">40.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:06 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> rjrocky
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">20.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:05 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> noren55
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">10.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:02 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> edywilson22
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">5.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        07:57 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> 0129811326
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">3.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        07:56 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> 0129811326
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">3.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        06:56 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> tienxt
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">6.65</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        06:54 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> sergbolt
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">10.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        06:49 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> bunlong
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">20.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        06:48 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> tbata45
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">10.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        06:14 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> alisha-1888
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">15.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        06:01 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> zinejcwxnx
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">6.19</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        05:59 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> ndncb
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">9.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        05:57 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> alimontos5
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">70.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        05:55 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> nuralom
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">5 800.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        05:55 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> alimontos5
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">20.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        05:46 </div>
+                                </td>
+                                <td><img src="load/img/ps/pay/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> zinejcwxnx
+                                    </div>
+                                </td>
+
+                                <td style="">
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#d24848; font-size:18px; ">7.40</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+                        </table>
+
+
+                        <!---------------------------------------------------------------------------------------------------->
+                    </td>
+                    <td width="50%" valign="top" align="right">
+                        <!---------------------------------------------------------------------------------------------------->
+
+
+                        <div id="tabZag">USER WITHDRAWS</div>
+                        <table width="99%" border="0" id="my_tab" class="notranslate">
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:16 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> 111111
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">4.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:15 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> 222222
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">3.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:15 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> 333333
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">3.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:14 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> hanan213
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">2.15</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:13 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> sasa1
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">7.74</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:13 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> rich21
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">27.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:12 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> ansh2015
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">13.17</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:11 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> radhouani
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">3.77</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:11 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> claricia
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">1.22</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:10 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> happy
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">5.94</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:09 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> kosaialsalh
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">42.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:08 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> shoko1752
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">2.44</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:08 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> tienxt
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">6.10</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:06 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> jorno
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">7.13</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:01 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> vivaryzex
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">750.00</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:01 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> yasermj
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">17.47</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:01 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> rostykr2005
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">8.39</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        09:00 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> qezi22
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">1.20</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:57 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> sahbi2
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">9.19</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+
+
+                            <tr>
+                                <td>
+                                    <div style="color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        08:54 </div>
+                                </td>
+                                <td><img src="load/img/ps/logo/payeer.png" height="15" /></td>
+                                <td>
+                                    <div
+                                        style="text-transform:uppercase; color:#343434; font-weight:bold; padding:3px 5px; border-radius:3px;">
+                                        <i class="fa fa-user"></i> wassim95
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div style="">
+                                        <span style=" font-weight:bold; color:#08887b; font-size:18px; ">4.38</span>
+                                        <span style=" font-size:12px">RUB</span>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+
+                        </table>
+
+                        <!---------------------------------------------------------------------------------------------------->
+                    </td>
+                </tr>
+            </table>
+            <br />
+
+
+
+
+            <center>
+                <div id="linkslot_344337">
+                    <script src="https://linkslot.ru/bancode.php?id=344337" async></script>
+                </div>
+
+                <iframe data-aa='2056483' src='//ad.a-ads.com/2056483?size=468x60'
+                    style='width:468px; height:60px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+            </center>
+            <!------------------------------------------------------------------------>
+        </div>
+        <div id="footer">
+            <!------------------------------------------------------------------------>
+
+
+            <style>
+                #menu {
+                    width: 100%;
+                    margin: auto;
+                    text-align: center;
+                    background-color: #2C343C;
+                    color: #FFFFFF;
+                }
+
+                .menu div {
+                    display: inline-block;
+                    background-color: #CC5050;
+                    width: 200px;
+                    height: 35px;
+                    line-height: 35px;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+
+                .menu div:hover {
+                    background-color: #FFFFFF
+                }
+
+                .menu a {
+                    color: #FFFFFF;
+                    display: block;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+
+                .menu a:hover {
+                    color: #333333
+                }
+            </style>
+
+            <div class="menu">
+                <div><a href="../rules.html">Rules</a></div>
+                <div><a href="../support.html">Support</a></div>
+                <div><a href="../aboutus.html">About Us</a></div>
+            </div>
+
+
+            <!------------------------------------------------------------------------>
+        </div>
+    </div>
+
+
+    <span id="info"></span>
+
+    <script>
+        function info(text) {
+            var $item = $("<div id='modal'><div class='message'><div id='info_close' onclick='info_close()'><i class='fas fa-times'></i></div><div class='inf_txt'>" + text + "</div></div></div>");
+            $item.appendTo($('#info')).delay(1000000).slideUp(500, function () {
+                $item.remove();
+            });
+        }
+        function info_close() { $('#info').text(''); }
+    </script>
+
+
+</body>
+
+</html>
